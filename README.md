@@ -19,10 +19,10 @@
 4. I execute the python file, save the file to the output directory, then print the file to the terminal
 
 ### How to run
-I included the dockerfile in this repo. You can download the tar file and then run
+You can build and run this dockerfile with two easy commands. Make sure you have docker enabled in your terminal, navigate to the folder containing the Dockerfile, then run:
 
 ```bash
-    docker load -i gerstead.tar
+    docker build -t gerstead .
     docker run gerstead
 ```
 
