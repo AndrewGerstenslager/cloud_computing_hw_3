@@ -1,13 +1,5 @@
 import contractions
 import socket
-import os
-
-
-# Function to get the IP address of the machine
-def get_ip_address():
-    hostname = socket.gethostname()
-    ip_address = socket.gethostbyname(hostname)
-    return ip_address
 
 
 # Function to process a file and return a word count dictionary
@@ -27,8 +19,15 @@ def process_file(file_path):
     return unique
 
 
+# Function to get the IP address of the machine
+def get_ip_address():
+    hostname = socket.gethostname()
+    ip_address = socket.gethostbyname(hostname)
+    return ip_address
+
+
 # File paths
-file1_path = "/home/data/AlwaysRememberUsThisWay.txt"
+file1_path = "/home/data/AlwaysRemeberUsThisWay.txt"
 file2_path = "/home/data/IF.txt"
 output_path = "/home/data/output/result.txt"
 
@@ -53,6 +52,8 @@ top_3_file1 = sorted(word_counts_file1.items(), key=lambda x: x[1], reverse=True
 ip_address = get_ip_address()
 
 # f. Write the results to a file and print them before exiting
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
 with open(output_path, "w") as f:
     f.write(f"Total words in {file1_path}: {total_words_file1}\n")
     f.write(f"Total words in {file2_path}: {total_words_file2}\n")
