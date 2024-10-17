@@ -1,0 +1,14 @@
+gerstead_stack_gerstead_service.2.k5h2snpvp7g0@docker-desktop    | Total words in /home/data/AlwaysRemeberUsThisWay.txt: 242
+gerstead_stack_gerstead_service.1.tzk06kvg7yf2@docker-desktop    | Total words in /home/data/AlwaysRemeberUsThisWay.txt: 242
+gerstead_stack_gerstead_service.2.k5h2snpvp7g0@docker-desktop    | Total words in /home/data/IF.txt: 298
+gerstead_stack_gerstead_service.1.tzk06kvg7yf2@docker-desktop    | Total words in /home/data/IF.txt: 298
+gerstead_stack_gerstead_service.1.tzk06kvg7yf2@docker-desktop    | Grand total words: 540
+gerstead_stack_gerstead_service.2.k5h2snpvp7g0@docker-desktop    | Grand total words: 540
+gerstead_stack_gerstead_service.1.tzk06kvg7yf2@docker-desktop    | Top 3 words in IF.txt: [('you', 19), ('and', 16), ('if', 14)]
+gerstead_stack_gerstead_service.2.k5h2snpvp7g0@docker-desktop    | Top 3 words in IF.txt: [('you', 19), ('and', 16), ('if', 14)]
+gerstead_stack_gerstead_service.1.tzk06kvg7yf2@docker-desktop    | Top 3 words in AlwaysRememberUsThisWay.txt: [('i', 15), ('the', 13), ('and', 8)]
+gerstead_stack_gerstead_service.2.k5h2snpvp7g0@docker-desktop    | Top 3 words in AlwaysRememberUsThisWay.txt: [('i', 15), ('the', 13), ('and', 8)]
+gerstead_stack_gerstead_service.1.tzk06kvg7yf2@docker-desktop    | IP address of the machine: 10.0.1.49
+gerstead_stack_gerstead_service.2.k5h2snpvp7g0@docker-desktop    | IP address of the machine: 10.0.1.50
+gerstead_stack_gerstead_service.1.tzk06kvg7yf2@docker-desktop    | 
+gerstead_stack_gerstead_service.2.k5h2snpvp7g0@docker-desktop    | 

@@ -1,0 +1,2 @@
+ID             NAME                              MODE         REPLICAS   IMAGE                         PORTS
+kzmhcv5m582n   gerstead_stack_gerstead_service   replicated   0/2        andrewgersh/gerstead:latest   
